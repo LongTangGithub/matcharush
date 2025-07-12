@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ippodo Matcha (30g) - Ippodo Tea</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        .product-container { display: flex; gap: 40px; margin: 20px 0; }
+        .product-image { width: 300px; height: 300px; background-color: #f0f0f0; border: 1px solid #ddd; }
+        .product-details { flex: 1; }
+        .product-title { font-size: 2em; margin-bottom: 10px; color: #2c3e50; }
+        .product-subtitle { font-size: 1.2em; color: #7f8c8d; margin-bottom: 20px; }
+        .price { font-size: 1.5em; font-weight: bold; color: #27ae60; margin: 20px 0; }
+        .add-to-cart-btn { 
+            background-color: #27ae60; 
+            color: white; 
+            padding: 15px 30px; 
+            border: none; 
+            border-radius: 5px; 
+            font-size: 1.1em; 
+            cursor: pointer; 
+            margin: 20px 0;
+        }
+        .add-to-cart-btn:hover { background-color: #229954; }
+        .product-description { line-height: 1.6; margin: 20px 0; }
+        .availability { color: #27ae60; font-weight: bold; margin: 10px 0; }
+        .breadcrumb { margin-bottom: 20px; color: #7f8c8d; }
+    </style>
+</head>
+<body>
+    <!-- Breadcrumb navigation -->
+    <div class="breadcrumb">
+        Home / Matcha / Ikuyo - 30g
+    </div>
+
+    <div class="product-container">
+        <div class="product-image">
+            <img 
+                src="https://via.placeholder.com/300x300?text=Ikuyo+Matcha" 
+                alt="Ikuyo Matcha 30g" 
+                style="width: 100%; height: 100%; object-fit: cover;"
+            >
+        </div>
+
+        <div class="product-details">
+            <h1 class="product-title">Ikuyo Matcha (30g)</h1>
+            <p class="product subtitle">For Lattes and Usucha - Medium & Snappy</p>
+
+            <div class="availability">✅ In Stock</div>
+            <div class="price">$28.00 USD</div>
+
+            <button class="add-to-cart-btn" id="add-to-cart">Add to Cart</button>
+
+            <div class="product-description">
+                <p>Ikuyo is a medium-bodied matcha with a refreshing bitterness that is slightly more noticeable than its sweetness and umami.  
+                </p>
+                <p>As usucha, it is a good option for everyday teatime, served straight and with cookies, cakes, or other sweets.</p>
+                <p>One of our top recommendations for a matcha latte, Ikuyo has slight astringency that pairs well with the milk, and its bright green color makes for a photogenic beverage.
+                </p>
+            </div>
+
+            <div class="product-info">
+                <p><strong>Best before date:</strong> 180 days from when it is freshly packaged in Japan</p>
+                <p><strong>Serving size:</strong> Usucha: 2g (1 tsp.) | Latte: 3g (1.5 tsp.)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-details-section">
+        <h3>Product Details</h3>
+        <p>Ikuyo is a balanced matcha with astringency, umami, and sweetness in proportion. Its medium-light body is joined by a gentle, but bright aroma, like sun-dried straw.</p>
+    </div>
+
+    <script>
+        // Simple JavaScript to simulate interaction
+        document.getElementById('add-to-cart').addEventListener('click', function() {
+            alert('Added to cart! (This is just a simulation)');
+        });
+    </script>
+</body>
+</html>

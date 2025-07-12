@@ -1,0 +1,140 @@
+# MatchaRush - Python Web Scraper .gitignore
+
+# === PYTHON ===
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# === ENVIRONMENT & SECRETS ===
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+*.env
+
+# API keys and secrets
+secrets.json
+config/secrets.py
+api_keys.txt
+
+# === PLAYWRIGHT & BROWSERS ===
+# Playwright downloads browsers here
+playwright-browsers/
+.playwright/
+
+# Browser cache and data
+browser-data/
+user-data-dir/
+
+# === DATABASES ===
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# PostgreSQL dumps
+*.sql
+*.dump
+
+# === LOGS & DATA ===
+# Log files
+*.log
+logs/
+scraping-logs/
+
+# Data files
+data/
+scraped_data/
+*.csv
+*.json
+results/
+
+# === IDE & EDITORS ===
+# VSCode / Cursor
+.vscode/
+.cursor/
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# === MACOS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# === WINDOWS ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === TESTING ===
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# === TEMPORARY FILES ===
+*.tmp
+*.temp
+temp/
+tmp/
+
+# === SCREENSHOTS & IMAGES ===
+# Screenshots from failed tests
+screenshots/
+test-results/
+*.png
+*.jpg
+*.jpeg
+(keep mock_pages/ images though)
+
+# === SPECIFIC TO MATCHARUSH ===
+# Product monitoring data
+product_data/
+historical_data/
+notifications_sent/
+
+# Discord webhook URLs (if stored in files)
+discord_webhooks.txt
+webhook_config.json
+
+# Test data
+test_data/
+mock_responses/
